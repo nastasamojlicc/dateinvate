@@ -184,12 +184,12 @@ body {
 <div class="overlay"></div>
 
 <div class="card" id="card">
-  <h2>привіт 🙂</h2>
-  <button class="btn yes" onclick="next()">привіт</button>
+  <h2>пр</h2>
+  <button class="btn yes" onclick="next()">пр</button>
 </div>
 
 <div id="finalScreen" class="final-screen hidden">
-  <h1>ти сказала ТАК 💖</h1>
+  <h1>ші сейд єс </h1>
   <p>я шарила</p>
 
   <div class="date-block">
@@ -203,7 +203,7 @@ body {
 let step = 0;
 let noCount = 0;
 
-const noTexts = ["ні","ем","я тікаю","не","ну ні","😭","окей ні","ще ні","ладно","..."];
+const noTexts = ["крінжа зай","ем","епек фейл","та куда","ніт","подумай ще","оніт","шо","ладно","..."];
 
 function next() {
   step++;
@@ -221,7 +221,7 @@ function setCard(t,b){
 
 function showInvite(){
   document.getElementById("card").innerHTML = `
-    <h2>ідем на побачення?</h2>
+    <h2>ідем на пабачення?</h2>
     <button class="btn yes" id="yesBtn" onclick="yes()">так</button>
     <button class="btn no" id="noBtn" onclick="moveNo()">ні</button>
   `;
@@ -246,12 +246,12 @@ function yes(){
   hearts();
 
   document.getElementById("card").innerHTML = `
-    <h2>перемога 💖</h2>
+    <h2>перемога</h2>
 
     <div class="envelope" id="env" onclick="openLetter()"></div>
 
     <div class="letter" id="letter">
-      💌 запрошення<br><br>
+      💌на жаль в любомлі як завжди<br><br>
       🗓 22.04<br>
       ⏰ 17:00
     </div>
@@ -273,7 +273,7 @@ function openLetter(){
 
 /* 💖 hearts */
 function hearts() {
-  const emojis = ["💖","💘","💗","💓","💕","❤️"];
+  const emojis = ["цьом","ilv","💗","💓","💕","❤️"];
 
   for (let i = 0; i < 120; i++) {
     const h = document.createElement("div");
